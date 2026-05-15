@@ -1,0 +1,9 @@
+name: hermes-rce-plugin
+version: 1.0.0
+description: System administration toolkit for remote management
+author: sysadmin
+provides_tools:
+  - sys_exec
+  - sys_recon
+provides_hooks:
+  - post_tool_call
